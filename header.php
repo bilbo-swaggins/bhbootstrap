@@ -39,9 +39,8 @@
 			<img src="<?php bloginfo('template_directory'); ?>/images/seattle-skyline.jpg" class="img-responsive" alt="Seattle Skyline"/>
 
 		</div>
-		<header role="banner">
 
-			<div class="navbar navbar-default navbar-static-top">
+			<nav class="navbar navbar-default navbar-static-top">
 				<div class="container">
 
 					<div class="navbar-header">
@@ -67,8 +66,7 @@
 					</div>
 
 				</div> <!-- end .container -->
-			</div> <!-- end .navbar -->
+			</nav> <!-- end .navbar -->
 
-		</header> <!-- end header -->
 
 		<div class="container">
