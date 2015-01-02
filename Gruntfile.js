@@ -22,9 +22,9 @@ module.exports = function(grunt) {
           compress: true,
           // LESS source map
           // To enable, set sourceMap to true and update sourceMapRootpath based on your install
-          sourceMap: true,
-          sourceMapFilename: 'library/dist/css/styles.css.map',
-          sourceMapRootpath: '/wp-content/themes/wordpress-bootstrap/' // If you name your theme something different you may need to change this
+          // sourceMap: true,
+          // sourceMapFilename: 'library/dist/css/styles.css.map',
+          // sourceMapRootpath: '/wp-content/themes/myblog/' // If you name your theme something different you may need to change this
         }
       }
     },

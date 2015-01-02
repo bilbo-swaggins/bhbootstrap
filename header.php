@@ -69,4 +69,4 @@
 			</nav> <!-- end .navbar -->
 
 
-		<div class="container">
+		<div class="container main">
