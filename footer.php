@@ -33,7 +33,7 @@
 
 		<!-- remove this for production -->
 
-		<!-- <script src="//localhost:35729/livereload.js"></script> -->
+		<script src="//localhost:35729/livereload.js"></script>
 		<!-- Switch to fixed nav -->
 		<script type="text/javascript">
 		$(window).load(function() {
