@@ -50,7 +50,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" /></a>
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
@@ -70,3 +70,31 @@
 
 
 		<div class="container main">
+			<div class="row  main">
+				<div class="col-xs-4">
+					<p>
+						<img src="<?php bloginfo('template_directory'); ?>/images/me.png" alt="Eric Willis" class="img-responsive">
+					</p>
+				</div>
+				<div class="col-xs-4 logo-thumb">
+					<p>
+						<img src="<?php bloginfo('template_directory'); ?>/images/logo-thumb.png" alt="Eric Willis" class="img-responsive">
+					</div>
+					<div class="col-xs-4 contact">
+						<h2><span class="glyphicon glyphicon-map-marker"></span> Find Me</h2>
+						<ul>
+							<li><a href="http://www.formget.com/app/form/share/KvsD-105192" target="_blank"> Contact Me</a></li>
+							<li><a href="http://www.linkedin.com/in/ewillis182/" target="_blank">Linkedin</a></li>
+							<li><a href="https://github.com/bilbo-swaggins" target="_blank">GitHub</a></li>
+
+						</ul>
+					</div>
+					<div class="contact-print">
+						<h2><span class="glyphicon glyphicon-map-marker"></span> Find Me</h2>
+						<ul>
+							<li><span class="glyphicon glyphicon-earphone"></span> 574-370-8064</li>
+							<li><span class="glyphicon glyphicon-envelope"></span> ewillis182@gmail.com</li>
+						</ul>
+
+					</div>
+				</div>

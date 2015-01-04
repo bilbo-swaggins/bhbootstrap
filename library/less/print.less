@@ -1,0 +1,47 @@
+/*Print Sytles for Resume*/
+
+.contact-print{
+  display:none;
+  float:right;
+}
+.contact-print ul{
+  list-style-type:none;
+  padding-left:20px;
+}
+.contact h2 {
+  margin-top:0;
+}
+.contact-print h2{
+  margin-top:0;
+}
+@media print {
+  .main{
+    padding-top:20px;
+  }
+  .sidebar h2{
+    font-size:21px;
+  }
+  h3 {
+    font-size:18px;
+  }
+
+  .contact {
+    display:none;
+  }
+  .contact-print {
+    display:inline;
+  }
+
+  blockquote {
+    border:none;
+    font-size:14px;
+  }
+  .content{
+    width:65%;
+    float:left;
+  }
+  .sidebar{
+    width:30%;
+    float:right;
+  }
+}
