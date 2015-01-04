@@ -15,7 +15,6 @@
 						<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 
-					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
 
 					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
 
@@ -34,7 +33,7 @@
 
 		<!-- remove this for production -->
 
-	<!--	<script src="//localhost:35729/livereload.js"></script> -->
+		<!-- <script src="//localhost:35729/livereload.js"></script> -->
 		<!-- Switch to fixed nav -->
 		<script type="text/javascript">
 		$(window).load(function() {

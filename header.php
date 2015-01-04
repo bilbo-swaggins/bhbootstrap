@@ -13,6 +13,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+			<!-- Google Fonts -->
+			<!-- Raleway -->
+			<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+			<!-- Open Sans -->
+			<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
@@ -71,16 +76,16 @@
 
 		<div class="container main">
 			<div class="row  main">
-				<div class="col-xs-4">
+				<div class="col-md-4 col-xs-6">
 					<p>
 						<img src="<?php bloginfo('template_directory'); ?>/images/me.png" alt="Eric Willis" class="img-responsive">
 					</p>
 				</div>
-				<div class="col-xs-4 logo-thumb">
+				<div class="col-md-4 col-xs-6 logo-thumb">
 					<p>
 						<img src="<?php bloginfo('template_directory'); ?>/images/logo-thumb.png" alt="Eric Willis" class="img-responsive">
 					</div>
-					<div class="col-xs-4 contact">
+					<div class="col-md-4 col-xs-12 contact">
 						<h2><span class="glyphicon glyphicon-map-marker"></span> Find Me</h2>
 						<ul>
 							<li><a href="http://www.formget.com/app/form/share/KvsD-105192" target="_blank"> Contact Me</a></li>
@@ -89,7 +94,7 @@
 
 						</ul>
 					</div>
-					<div class="contact-print">
+					<div class="col-xs-12 contact-print">
 						<h2><span class="glyphicon glyphicon-map-marker"></span> Find Me</h2>
 						<ul>
 							<li><span class="glyphicon glyphicon-earphone"></span> 574-370-8064</li>
