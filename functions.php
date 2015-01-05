@@ -455,17 +455,6 @@ function wp_bootstrap_add_class_attachment_link( $html ) {
 }
 add_filter( 'wp_get_attachment_link', 'wp_bootstrap_add_class_attachment_link', 10, 1 );
 
-// Add lead class to first paragraph
-function wp_bootstrap_first_paragraph( $content ){
-    global $post;
-
-    // if we're on the homepage, don't add the lead class to the first paragraph of text
-    if( is_page_template( 'page-homepage.php' ) )
-        return $content;
-    else
-        return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead">', $content, 1);
-}
-add_filter( 'the_content', 'wp_bootstrap_first_paragraph' );
 
 // Menu output mods
 class Bootstrap_walker extends Walker_Nav_Menu{
@@ -548,7 +537,7 @@ add_filter('nav_menu_css_class', 'wp_bootstrap_add_active_class', 10, 2 );
 if( !function_exists("wp_bootstrap_theme_styles") ) {
     function wp_bootstrap_theme_styles() {
         // This is the compiled css file from LESS - this means you compile the LESS file locally and put it in the appropriate directory if you want to make any changes to the master bootstrap.css.
-        wp_register_style( 'wpbs', get_template_directory_uri() . '/library/dist/css/styles.d36102bd.min.css', array(), '1.0', 'all' );
+        wp_register_style( 'wpbs', get_template_directory_uri() . '/library/dist/css/styles.42f6dcea.min.css', array(), '1.0', 'all' );
         wp_enqueue_style( 'wpbs' );
 
         // For child themes
