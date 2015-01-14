@@ -19,10 +19,10 @@ Template Name: Resume
 				<div class="col-md-4 col-xs-12 contact">
 					<h2><span class="glyphicon glyphicon-map-marker"></span> Find Me</h2>
 					<ul>
-						<li><a href="http://www.formget.com/app/form/share/KvsD-105192" target="_blank"> Contact Me</a></li>
-						<li><a href="http://www.linkedin.com/in/ewillis182/" target="_blank">Linkedin</a></li>
-						<li><a href="https://github.com/bilbo-swaggins" target="_blank">GitHub</a></li>
-
+						<li><a href="http://www.formget.com/app/form/share/KvsD-105192" class="fa fa-envelope fa-2x" target="_blank"></a></li>
+						<li><a href="http://www.linkedin.com/in/ewillis182/" class="fa fa-linkedin fa-2x" target="_blank"></a></li>
+						<li><a href="https://github.com/bilbo-swaggins" class="fa fa-github fa-2x" target="_blank"></a></li>
+						
 					</ul>
 				</div>
 				<div class="col-xs-12 contact-print">
@@ -35,7 +35,7 @@ Template Name: Resume
 				</div>
 			</div>
 
-			
+
 			<div id="content" class="clearfix row">
 
 				<div id="main" class="col col-lg-12 clearfix" role="main">

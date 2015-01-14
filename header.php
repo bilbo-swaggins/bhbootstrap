@@ -43,7 +43,7 @@
 	<body <?php body_class(); ?>>
 		<div class="container banner hidden-print">
 
-			<img src="<?php bloginfo('template_directory'); ?>/images/seattle-skyline.jpg" class="img-responsive" alt="Seattle Skyline"/>
+			<img src="<?php bloginfo('template_directory'); ?>/images/seattle-skyline.png" class="img-responsive" alt="Seattle Skyline"/>
 
 		</div>
 
@@ -57,7 +57,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" /></a>
+						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/ew_logo.png" /></a>
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
@@ -77,4 +77,3 @@
 
 
 		<div class="container main">
-			
