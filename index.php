@@ -11,7 +11,7 @@
 					<img src="<?php bloginfo('template_directory'); ?>/images/logo-thumb.png" alt="Eric Willis" class="img-responsive">
 				</div>
 				<div class="col-md-4 col-xs-12 contact">
-					<h2><span class="glyphicon glyphicon-map-marker"></span> Contact Me</h2>
+					<h2><span class="fa fa-comment"></span> Contact Me</h2>
 					<ul>
 						<li><a href="http://www.formget.com/app/form/share/KvsD-105192" class="fa fa-envelope fa-2x" target="_blank"></a></li>
 						<li><a href="http://www.linkedin.com/in/ewillis182/" class="fa fa-linkedin fa-2x" target="_blank"></a></li>
