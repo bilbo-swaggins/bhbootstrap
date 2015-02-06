@@ -15,23 +15,42 @@
   margin-top:0;
 }
 @media print {
+  *{
+    font-size:10px;
+  }
   .main{
     padding-top:20px;
   }
-  .sidebar h2{
-    font-size:21px;
+  h2{
+    font-size:18px;
+    margin-top:5px;
   }
   h3 {
-    font-size:18px;
+    font-size:14px;
   }
-
+  h4 {
+    font-size:12px;
+  }
+  .page-header{
+    margin-top:0;
+    padding-bottom:0;
+  }
   .contact {
     display:none;
   }
   .contact-print {
     display:inline;
   }
-
+  .contact-me ul{
+    list-style-type:none;
+    padding-left:0;
+  }
+  .contact-me ul li{
+    padding-bottom:5px;
+  }
+  ul{
+    margin-bottom:0;
+  }
   blockquote {
     border:none;
     font-size:14px;

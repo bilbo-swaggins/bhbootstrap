@@ -6,7 +6,7 @@ Template Name: Resume
 
 <?php get_header(); ?>
 
-		<div class="row  main">
+		<div class="row  main hidden-print">
 			<div class="col-md-4 col-xs-6">
 				<p>
 					<img src="<?php bloginfo('template_directory'); ?>/images/me.png" alt="Eric Willis" class="img-responsive">
