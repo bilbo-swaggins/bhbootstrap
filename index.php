@@ -49,7 +49,7 @@
 						</header> <!-- end article header -->
 
 						<section class="post_content clearfix">
-						<p><?php the_excerpt(); ?></p>
+							<?php the_content( __("Read more &raquo;","wpbootstrap") ); ?>
 						</section> <!-- end article section -->
 
 						<footer>

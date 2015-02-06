@@ -537,11 +537,7 @@ add_filter('nav_menu_css_class', 'wp_bootstrap_add_active_class', 10, 2 );
 if( !function_exists("wp_bootstrap_theme_styles") ) {
     function wp_bootstrap_theme_styles() {
         // This is the compiled css file from LESS - this means you compile the LESS file locally and put it in the appropriate directory if you want to make any changes to the master bootstrap.css.
-<<<<<<< Updated upstream
         wp_register_style( 'wpbs', get_template_directory_uri() . '/library/dist/css/styles.adf71143.min.css', array(), '1.0', 'all' );
-=======
-        wp_register_style( 'wpbs', get_template_directory_uri() . '/library/dist/css/styles.74bed1a2.min.css', array(), '1.0', 'all' );
->>>>>>> Stashed changes
         wp_enqueue_style( 'wpbs' );
 
         // For child themes
@@ -704,11 +700,5 @@ function wp_bootstrap_filter_ptags_on_images( $content ){
   return preg_replace( '/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content );
 }
 add_filter( 'the_content', 'wp_bootstrap_filter_ptags_on_images' );
-
-function new_excerpt_more( $more ) {
-  return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
-}
-add_filter( 'excerpt_more', 'new_excerpt_more' );
-
 
 ?>
